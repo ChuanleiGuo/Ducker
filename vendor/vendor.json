@@ -1,0 +1,27 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "rdXBSMsIpX89xZS5rUwnBGZOe+Q=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "d329d24db4313262a3b0a24d8aeb1dc4bd294fb0",
+			"revisionTime": "2018-07-31T16:13:55Z"
+		},
+		{
+			"checksumSHA1": "9/2qvuFPQxW7ZXzQSOYwqZb5cNg=",
+			"path": "github.com/urfave/cli",
+			"revision": "8e01ec4cd3e2d84ab2fe90d8210528ffbb06d8ff",
+			"revisionTime": "2018-02-26T03:02:53Z"
+		},
+		{
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": ""
+		},
+		{
+			"path": "golang.org/x/sys/unix",
+			"revision": ""
+		}
+	],
+	"rootPath": "chuanleiguo.com/Ducker"
+}
