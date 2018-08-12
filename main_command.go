@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/chuanleiguo/Ducker/container"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )
@@ -33,7 +34,6 @@ var initCommand = cli.Command{
 	Action: func(context *cli.Context) error {
 		log.Infof("init come on")
 		cmd := context.Args().Get(0)
-		log.Infof("command %s", cmd)
 		err := container.RunContainerInitProcess(cmd, nil)
 		return err
 	},
